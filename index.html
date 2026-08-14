@@ -53,8 +53,8 @@
 </head>
 <body>
   <main>
-    <section class="top"><div><h1>Project Dashboard</h1><p>2026-08-08T14:35:25.118Z</p></div><div class="stat">過去7日 125 コミット</div></section>
-    <section class="timeline"><h2>📅 最近のアクティビティ</h2><details open><summary>3日前 (2026-08-05)</summary><p class="headline">車両に紐づかない作業の登録について、誤った復旧や重複、編集ミスを防ぐ仕上げを行いました。必要な記録変更も実際の運用環境へ反映しています。</p><details><summary>コミット詳細 (13 件)</summary><ol><li><time>00:24</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両なし実績を孤児復旧から除外し、非対応経路の不受理ガードを追加</li><li><time>00:25</time> <span class="project-chip">unso-os</span> docs(specs): 099 に P6（孤児復旧除外）と不受理ガードの完了を記録</li><li><time>01:03</time> <span class="project-chip">unso-os</span> docs(specs): 099 に編集ガード F6/F16 の完了を記録</li><li><time>01:03</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両なし実績の編集ガード（F6/F16）</li><li><time>01:41</time> <span class="project-chip">unso-os</span> docs(specs): 099 に復活時の重複チェック完了を記録</li><li><time>01:41</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両なし実績の復活で置換行との並存を防ぐ（spec 099 §4-7）</li><li><time>02:02</time> <span class="project-chip">unso-os</span> fix(car-cleaning): 車両なし実績の編集不能・一括承認の fail-open・表示の取り違え</li><li><time>02:03</time> <span class="project-chip">unso-os</span> docs(specs): 099 に敵対的レビュー8所見の裁定（4件修正・4件非対応）を記録</li><li><time>02:41</time> <span class="project-chip">unso-os</span> fix(car-cleaning): 23514 変換・不受理ガードのすり抜け・非ページネーション API の伝播</li><li><time>02:42</time> <span class="project-chip">unso-os</span> docs(specs): 099 に次段3件の完了を記録（コード側の未着手が尽きた）</li><li><time>06:13</time> <span class="project-chip">unso-os</span> docs(specs): migration 164/165 の本番適用と検証結果を記録</li><li><time>06:36</time> <span class="project-chip">unso-os</span> fix(ui): 車両なしチェックボックスの選択状態を作業種別チップと揃える</li><li><time>07:53</time> <span class="project-chip">unso-os</span> Merge remote-tracking branch &#39;origin/main&#39; into feat/no-vehicle-core</li></ol></details></details><details open><summary>4日前 (2026-08-04)</summary><p class="headline">学習支援事業では保護者向け手続きと申込の流れを整え、利用者確認を進めました。複数の相談役による回答サービスと業務管理サービスでは、承認・修正時の誤りや車両なし作業の取り違えを重点的に解消しました。</p><ul class="fs-updates"><li>📂 <span class="project-chip">sysmaker</span> 3 ファイル更新</li></ul><details><summary>コミット詳細 (68 件)</summary><ol><li><time>07:53</time> <span class="project-chip">organ</span> vet review: 218 fixed→ready (f9 AC境界/f1 回復非対称受容/f7 R2精密化) / 219 stay-blocked (grill詰め直し待ち)</li><li><time>07:54</time> <span class="project-chip">unso-os</span> chore(specs): vet review 裁定 — 097/098-audit を推奨方向で確定し ready 復帰(PASS fixed)・099/100 は grill 詰め直しで stay-blocked(全期間方式=ym任意化採用・Depends-on 097 予定)</li><li><time>09:44</time> <span class="project-chip">hometeacher</span> fix: 保護者2画面を実使用シミュレーションで改修（複合/契約直後の2状態追加・design-reviewer PASS）</li><li><time>09:58</time> <span class="project-chip">unso-os</span> chore(specs): grill詰め直し — 099/100 の vet 指摘を全件解消し ready 復帰(番号維持・Vetted行削除)</li><li><time>10:06</time> <span class="project-chip">organ</span> vet: R2 219 QUARANTINED — CRITICAL 2 隔離 (f2 サニタイズ範囲不足+f117-10誤引用・f9 tier1-risk記述とcoordination-policy矛盾) / HIGH 8・MED申し送り2・未判定仮MED6</li><li><time>10:07</time> <span class="project-chip">hometeacher</span> feat: 兄弟在籍ホーム（第6状態）を実装（縦積み裁定・design-reviewer PASS）</li><li><time>10:17</time> <span class="project-chip">organ</span> vet review: 219 fixed-&gt;ready — R2 全12所見+m1-m6/l2 反映 (f2 除去集合SAY_STRIP同一化/f9 worker:blocked準拠/f6 統一fold/f8 片方向+被覆ガード/f5 監査Q&amp;A伝搬ほか) / by kamit</li><li><time>10:30</time> <span class="project-chip">hometeacher</span> feat: ホームから保護者サブページへの導線を接続（?state= 全経路引き継ぎ・DECISIONS 記録）</li><li><time>10:30</time> <span class="project-chip">hometeacher</span> feat: 保護者フロー残り4画面を実装（レポート/契約書面/家庭情報/お支払い・design-reviewer PASS）</li><li><time>10:49</time> <span class="project-chip">organ</span> fix: 218 observe の承認待ち中 correction で再承認ラウンド発行 — requiresReapproval を未解決 approval wait 現存で tier 不問に (.specs/done/218-fix-observe-reapproval-stale.md)</li><li><time>10:52</time> <span class="project-chip">unso-os</span> chore(specs): vet 再評価 2026-08-04 — 099/100 を QUARANTINED 隔離(099=CRITICAL2 F7 VOID相互作用+F10 RLS境界・HIGH9 / 100=CRITICAL2 G1 g6ガード迂回+G6 API契約未決・HIGH5)・GLMシャドー78票記帳</li><li><time>11:18</time> <span class="project-chip">organ</span> fix: 219 framing 回答を brief に反映 — Q&amp;A ペア提示+回答優先 Hard rule+第4バケット+決定論バックストップ+lite 配線 (.specs/done/219-fix-framing-answer-brief-reflection.md)</li><li><time>11:19</time> <span class="project-chip">organ</span> chore: batch 2026-08-04 の audit manifest 更新 (base=5efbbf8 / done 218,219)</li><li><time>11:20</time> <span class="project-chip">organ</span> chore: PR #37 URL を manifest に記録 / DECISIONS に batch 218-219 完了を追記</li><li><time>12:08</time> <span class="project-chip">unso-os</span> chore(specs): vet review 裁定 — 099/100 とも直す=grill 詰め直しで stay-blocked(099=F1/F2/F7/F10・100=G1/G6/G3/G5 の設計判断を改訂 grill で確定予定)</li><li><time>12:42</time> <span class="project-chip">organ</span> audit R22: batch 218-219 非クリーン — 確定 HIGH 6/MEDIUM 1 を blocked 220-222 に起票 (12件上限超過で x-4 持ち越し)</li><li><time>12:49</time> <span class="project-chip">organ</span> audit R22 review: 220-222 を human-gate から ready へ (f9/f11/f5/f8/f12 修正方針確定・f1/f10 は override 受容)</li><li><time>14:04</time> <span class="project-chip">unso-os</span> chore(specs): vet round2 — 099/100 を QUARANTINED 再隔離(099=HIGH6 P1-P6 請求済み編集ガード/DB境界/復旧経路・100=CRITICAL3 Q1選択残存承認+Q4分類誤り+Q6ビルド不能・HIGH2)・GLMシャドー39票記帳</li><li><time>14:07</time> <span class="project-chip">unso-os</span> chore(specs): vet round2 review 裁定 — 099/100 とも直す=grill 詰め直し(3周目)で stay-blocked(099=P2/P5/P6・100=Q6/Q2/Q5 の設計判断を改訂 grill で確定予定)</li><li><time>14:11</time> <span class="project-chip">organ</span> vet R1: 220-222 全件 QUARANTINED — 220 HIGH3 (fold/known空述語不一致・e2e不成立・sourceChallengeIds迂回) / 221 CRITICAL1+HIGH3 (known[]旧値の全経路漏洩・commandSeq誤帰属・changedFields欠落・実害経路疑義) / 222 HIGH4+MED1 (AC1 masking不再現・複数round AC欠落・lead真理値文言矛盾・発行点網羅不全)</li><li><time>14:24</time> <span class="project-chip">organ</span> vet review R1: 222 fixed→ready (AC再設計+発行点4箇所化+lead真理値限定+委任宣言policy準拠+coordination-mode裸形式) / 220-221 stay-blocked (grill詰め直し: f2対処方向・f10受容範囲ほか)</li><li><time>14:47</time> <span class="project-chip">organ</span> grill 詰め直し: 220/221 を vet R1 全所見反映で ready へ — 220=受口拒否二層+既知ID検証+共通空述語 / 221=known[]置換(CRITICAL対処)+commandSeq union+changedFields差分+実害経路確定 (kamit 3裁定・ループ対策=2周cap)</li><li><time>15:24</time> <span class="project-chip">organ</span> vet R2: 220/221 QUARANTINED(HIGH8/MED2/棄却2)→review 直すで全反映し PASS(fixed) — 220=delegate併記封鎖+既知ID受容明文化+冪等AC / 221=commandSeq方式置換(Codex別解)+legacy S7保護+changedFields比較固定+premises直接検証 (R1蒸し返し0=ループ非該当)</li><li><time>15:52</time> <span class="project-chip">unso-os</span> chore(specs): vet round3 — 099/100 を QUARANTINED 再隔離(099=CRITICAL3 S2 P2同時PATCH迂回+S4 updateVehicleInfo経路漏れ+S5 NOT VALID既存行未規定・HIGH5 / 100=CRITICAL1 T3 全期間無索引×service-role×3並列・HIGH3)・GLMシャドー48票記帳(送信12・一致75%)</li><li><time>16:01</time> <span class="project-chip">organ</span> fix: 220 filterAnsweredOpenItems の境界と迂回封鎖 — f9 受口拒否(isBlankAnswer)+fold防御 / f11 コードポイント閾値 / f5 protectedTexts明示受け渡し / R6 未知sourceChallengeIds除去 (.specs/done/220-fix-answered-backstop-contract.md)</li><li><time>16:25</time> <span class="project-chip">organ</span> fix: 221 correction 経路にも回答反映を適用 — finalizeBriefForStorage 適用(遅延正規化)+changedFields 差分union+override 再回答の known[] 置換(commandSeq/provenance 方式) (.specs/done/221-fix-correction-answer-reflection.md)</li><li><time>16:47</time> <span class="project-chip">organ</span> fix: 222 再承認判定を hasUnresolvedApprovalWait 独立検出へ — questions/approval 併存 masking の防御・last-one 意味論固定・不変条件テスト (.specs/done/222-fix-approval-wait-detection.md)</li><li><time>16:49</time> <span class="project-chip">organ</span> chore: batch 2026-08-04 (2nd) audit manifest — 220/221/222 done, base e9e4831..head 68292d3, PR #38</li><li><time>16:52</time> <span class="project-chip">unso-os</span> chore(specs): vet round3 review 裁定 — 099/100 とも直す=grill 詰め直し(4周目)で stay-blocked(099=S2 DB境界/S5 既存違反行/S6 原子化/S10 store_id 前提・100=T3 性能ガード/T4 母集合定義/T5 max_rows 対策の設計判断を改訂 grill で確定予定)</li><li><time>17:12</time> <span class="project-chip">organ</span> chore: audit R23 — 判定4件(f1-f3 棄却/f4 HIGH 人間ゲート) blocked/223 起票・state 記録・DECISIONS 追記</li><li><time>17:26</time> <span class="project-chip">organ</span> chore: vet review 223 — 案2(エンジン noop 検出+edit_assumption 同梱)で ready 化・裁定を spec 反映 (.specs/ready/223-fix-correction-same-value-noop.md)</li><li><time>19:16</time> <span class="project-chip">unso-os</span> chore(specs): vet round4 — 099/100 を QUARANTINED 再隔離(099=CRITICAL3 W1 RPC権限モデル未規定+W3 発行×編集の逆順競合+W4 部分UNIQUEのwork_code NULL穴・HIGH3 / 100=CRITICAL2 X3 role gate迂回2経路+X19 データ層ガード欠落・HIGH6)・GLMシャドー48票記帳(送信12・一致66.7%)</li><li><time>19:33</time> <span class="project-chip">hometeacher</span> fix: 兄弟在籍時の識別性を改修（生徒名を主役化・design-reviewer PASS）</li><li><time>19:35</time> <span class="project-chip">hometeacher</span> docs: 保護者系統をユーザー確認 OK で確定（DECISIONS 記録）</li><li><time>19:35</time> <span class="project-chip">unso-os</span> chore(specs): round4 review 裁定 — 099/100 を spec 分割してスコープ肥大を断つ</li><li><time>19:45</time> <span class="project-chip">organ</span> chore: vet R1 223 — QUARANTINED(CRITICAL 1/HIGH 6/MEDIUM 4/棄却 2・持ち越し4) blocked へ隔離・§8 要確認と §10 判定記録を追記</li><li><time>19:53</time> <span class="project-chip">organ</span> chore: vet review 223 第2回 — 案2 撤回し案3(受容の明文化)へ・fixed で ready 化 (CRITICAL/HIGH 計7件が構造的に消滅)</li><li><time>20:12</time> <span class="project-chip">unso-os</span> chore(specs): vet round5 — 099/100 を QUARANTINED 再隔離(099=CRITICAL2 Z2 分割で請求済みガード空白+Z3 是正文言の食い違い・HIGH3 / 100=CRITICAL1 Y3 認可穴の悪用容易性増・HIGH3)・分割の副作用を Phase2 に記録・GLMシャドー39票記帳(全skip risk-tier1)</li><li><time>20:17</time> <span class="project-chip">unso-os</span> chore(specs): round5 裁定 — 実装先行へ切替＋分割の副作用を修正</li><li><time>20:20</time> <span class="project-chip">organ</span> chore: 222 フィクスチャ是正と import 並び整理 (batch 223 の前提クリア)</li><li><time>20:22</time> <span class="project-chip">hometeacher</span> feat: 申込フロー v2（6ステップ・受付モデル）を実装（design-reviewer PASS）</li><li><time>20:40</time> <span class="project-chip">unso-os</span> fix: 運行実績の一括承認を会社設定へ一本化（3画面すべてで0円承認を有効化）</li><li><time>20:41</time> <span class="project-chip">hometeacher</span> docs: UX 再設計3系統完了時点の引き継ぎを作成（次タスク=運営の朝）</li><li><time>20:48</time> <span class="project-chip">unso-os</span> Merge pull request #58 from funct-jp/hotfix/zero-fare-bulk-approve-setting</li><li><time>20:56</time> <span class="project-chip">organ</span> chore: 223 correction 同値再送を受容として明文化・回帰テストで固定 (.specs/done/223-fix-correction-same-value-noop.md)</li><li><time>20:58</time> <span class="project-chip">organ</span> chore: batch 2026-08-04 (3rd) audit manifest — 223 done, base 68292d3..head f5bd449, PR #38</li><li><time>21:10</time> <span class="project-chip">unso-os</span> feat(car-cleaning): no_vehicle 列と矛盾行 CHECK を追加し開始RPCへ配線（spec 099 最小コア）</li><li><time>21:25</time> <span class="project-chip">organ</span> chore: audit R24 — 所見7件(HIGH2/MEDIUM3/LOW2) 人間ゲート2件を blocked へ起票・自動起票0</li><li><time>21:29</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両に紐づかない作業の登録と承認ゲート開放（spec 099 最小コア）</li><li><time>21:30</time> <span class="project-chip">unso-os</span> docs(specs): 099 に実コード検証の結果を反映（実装先行で判明した前提の誤り4件）</li><li><time>21:36</time> <span class="project-chip">organ</span> chore: vet review R24 — 224/225 を ready 化・226 分離起票・ARIA バイパス解消 (kamit 裁定)</li><li><time>21:56</time> <span class="project-chip">organ</span> fix: 224 同値再送の実害評価を訂正 — 全 agent rerun と正規化差の出力変化を明記 (.specs/done/224-fix-same-value-impact-assessment.md)</li><li><time>22:05</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 店舗実在確認と車両なし実績の重複防御（spec 099 Z6/Z7）</li><li><time>22:12</time> <span class="project-chip">unso-os</span> fix(tests): migration 読み取りを LF 正規化＋ヘルプの絶対表現を車両なしルートと整合（spec 099 Z3）</li><li><time>22:15</time> <span class="project-chip">organ</span> chore: batch 2026-08-04 (4th) audit manifest — 224/225 done, base f5bd449..head 8915a74, PR #38</li><li><time>22:15</time> <span class="project-chip">organ</span> fix: 225 未適用 correction を prior と誤認しない — クラッシュ窓での known[] 重複を封じる (.specs/done/225-fix-prior-answer-seq-crash-window.md)</li><li><time>22:36</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 過去分手入力でも車両なし作業を登録できるようにする（spec 099 W2/S7/F15）</li><li><time>22:39</time> <span class="project-chip">organ</span> chore: audit R25 — クリーン(CRITICAL/HIGH ゼロ)・MEDIUM 1件を自動修正クラスで ready/227 起票</li><li><time>22:39</time> <span class="project-chip">unso-os</span> docs(specs): 099 に実装進捗と残作業を記録（6コミット分の対応と未着手4項目）</li><li><time>22:52</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両に紐づかない作業の入力UI（開始・過去分手入力）</li><li><time>22:57</time> <span class="project-chip">organ</span> fix: 227 spec 225 AC2 のクラッシュ窓フィクスチャを到達可能な列にする (.specs/done/227-fix-ac2-fixture-reachability.md)</li><li><time>22:58</time> <span class="project-chip">organ</span> chore: batch 2026-08-04 (5th) audit manifest — 227 done, base 8915a74..head 1a3691c, PR #38</li><li><time>23:06</time> <span class="project-chip">unso-os</span> fix(car-cleaning): 車両なし実績の承認ゲート免除が効かない不具合と一覧表示</li><li><time>23:18</time> <span class="project-chip">unso-os</span> test(car-cleaning): no_vehicle の SELECT 漏れを検出する回帰テスト</li><li><time>23:19</time> <span class="project-chip">unso-os</span> docs(specs): 099 に実コード検証の結果（前提の誤り4件）とマージ前の migration 必須手順を記録</li><li><time>23:21</time> <span class="project-chip">unso-os</span> docs(database): migration 164（車両に紐づかない作業）を履歴へ追記</li><li><time>23:43</time> <span class="project-chip">unso-os</span> feat(car-cleaning): 車両なし実績の重複を DB の部分 UNIQUE で最終防壁化（spec 099 F1）</li><li><time>23:44</time> <span class="project-chip">unso-os</span> docs(specs): 099 に F1 実装漏れの解消（migration 165）を記録</li></ol></details></details><details><summary>5日前 (2026-08-03)</summary><p class="headline">学習支援事業で講師・保護者向けの一連の画面を整えました。複数の相談役による回答サービスでは資料受付と材料不足の確認を追加し、業務管理では相談応答と外注実績登録を改善しました。</p><ul class="fs-updates"><li>📂 <span class="project-chip">sysmaker</span> 2 ファイル更新</li></ul><details><summary>コミット詳細 (38 件)</summary><ol><li><time>15:19</time> <span class="project-chip">hometeacher</span> feat: 講師フロー v2 3画面（ホーム/チェックイン/聞き書き）を field-utility トーンで実装（DESIGN.md 2モード＋トーン3案プレビュー・design-reviewer PASS 済み）</li><li><time>15:19</time> <span class="project-chip">hometeacher</span> docs: UX 再設計の合意文書 ux-design.md を確定（grill 8点裁定・設計原則・秒単位フロー・画面別成功条件）＋ system-requirements 波及改訂7件</li><li><time>15:57</time> <span class="project-chip">hometeacher</span> feat: 講師フロー第4画面「終了チェック」v2 を実装（裁定⑥ソフトブロック・打刻修正の例外操作・完了断言画面・design-reviewer PASS）</li><li><time>16:09</time> <span class="project-chip">unso-os</span> feat(ai): チャット品質改善 — Sonnet 5 切替+文脈拡大+即答プロンプト+予算実費計上</li><li><time>16:12</time> <span class="project-chip">unso-os</span> feat: 088 外注実績のADMIN/OWNER代理登録(手入力・前月まで) — 対象基準chassis・前月floor・works別prop分離・対象切替クリア (.specs/done/088-admin-proxy-subcontractor-worklog.md)</li><li><time>16:14</time> <span class="project-chip">hometeacher</span> fix: 終了チェックの空欄理由から「時間切れ」を削除（ux-design §3.1 同期）</li><li><time>16:17</time> <span class="project-chip">unso-os</span> chore(specs): batch 完了処理 — audit manifest 更新(087/088)+DECISIONS 記録</li><li><time>16:42</time> <span class="project-chip">hometeacher</span> feat: 講師フロー第5画面「テスト期の聞き書き」v2 を実装（生徒単位テスト期・同意家庭のみ撮影導線・端末削除の順序強制・未送信キュー・design-reviewer PASS）</li><li><time>16:43</time> <span class="project-chip">unso-os</span> chore(ai): クロージングパートナーズ有効化スクリプト(dry-run/apply)+実行タイミング決定の記録</li><li><time>16:51</time> <span class="project-chip">unso-os</span> chore(specs): audit round1(087/088) — CRITICAL2(a4実クライアント情報焼込/a5 c1ミティゲーション×0件表示バグ)含む9所見確定・自動起票089・人間ゲート090-092で STOP</li><li><time>16:53</time> <span class="project-chip">unso-os</span> Merge pull request #54 from funct-jp/batch/2026-08-02</li><li><time>16:56</time> <span class="project-chip">hometeacher</span> fix: テスト期の局面を生徒単位で分離（対策中=目標記録のみ・返却後=実点数＋答案撮影。ux-design §3.1 同期・design-reviewer 再検証 PASS）</li><li><time>18:01</time> <span class="project-chip">organ</span> batch 2026-08-01: 161 ファイル入力導線 / 162 材料不足検出 (#36)</li><li><time>18:09</time> <span class="project-chip">unso-os</span> chore(specs): vet review 090-092 裁定 — a7受容打ち止め宣言(6サイクル終端)・a5診断で162未適用起因と確定(エラー空状態偽装の遮断へ)・a4redact/a6advancesクリア/a3helper/a8a9compaction修正・blocked→ready</li><li><time>18:16</time> <span class="project-chip">unso-os</span> fix: 089 手入力フォームの作業日必須チェック追加(対象切替クリア後の空送信500経路を遮断) (.specs/done/089-fix-manual-entry-workdate-validation.md)</li><li><time>18:22</time> <span class="project-chip">unso-os</span> fix: 090 sibling UI残存2所見 — disabledReason前提の防御コメント+回帰テスト固定・返却上限の打ち止め宣言 (.specs/done/090-audit-087-residual-sibling-ui.md)</li><li><time>18:40</time> <span class="project-chip">unso-os</span> fix: 091 gaidai-jobsエラーの空状態偽装遮断+立替金の対象切替クリア+isProxyTarget単一定義 (.specs/done/091-audit-088-residual-proxy-entry.md)</li><li><time>19:00</time> <span class="project-chip">unso-os</span> fix: 092 実クライアント情報のredact/env化+compaction履歴喪失2件修正(最新1000件取得・スキップ時の中間保持) (.specs/done/092-audit-ai-chat-parallel-commit.md)</li><li><time>19:02</time> <span class="project-chip">unso-os</span> chore(specs): batch 完了処理 — audit manifest 更新(089-092)+DECISIONS 記録</li><li><time>19:34</time> <span class="project-chip">unso-os</span> chore(specs): audit round2(089-092) — CRITICAL2(b5誤承認経路/b8 compaction同値境界)+a4実質再発(b1)で STOP・自動起票093・人間ゲート094-096</li><li><time>19:41</time> <span class="project-chip">unso-os</span> chore(specs): vet review 094-096 裁定 — 世代トークン一括再設計/enableスクリプトenv化+全体grep AC/compaction境界の正定義/前提固定の軽微fix・blocked→ready</li><li><time>19:43</time> <span class="project-chip">unso-os</span> fix: 093 AIレディネスチェックの未登録会社名を exit 1 に(未指定時と対称化) (.specs/done/093-fix-readiness-check-exit-code.md)</li><li><time>19:54</time> <span class="project-chip">unso-os</span> fix(ai): metric ガードの supabase-js クエリ順序バグ修正 — 社員別・顧客別分析の全滅を復旧</li><li><time>20:10</time> <span class="project-chip">hometeacher</span> fix: 返却後の一言メモをテスト期間の振り返りに差替（ふりかえり/次に向けてチップ・点数から下書き自動生成。ux-design §3.1 同期・design-reviewer PASS）</li><li><time>20:11</time> <span class="project-chip">unso-os</span> fix: 094 gaidai-jobsのstate管理を世代トークンで再設計(並行競合根絶+エラー時誤承認遮断+staleチップ遮断) (.specs/done/094-audit-r2-gaidai-jobs-state.md)</li><li><time>20:15</time> <span class="project-chip">unso-os</span> Merge pull request #56 from funct-jp/hotfix/ai-metric-query-guard</li><li><time>20:16</time> <span class="project-chip">hometeacher</span> docs: 講師フロー5画面をユーザー確認 OK で確定（DECISIONS 記録）</li><li><time>20:28</time> <span class="project-chip">unso-os</span> fix: 095 enableスクリプトのUUID除去(env化・リポ全体grep 0件実測)+compaction境界の正定義(cutoff DB押込+同時刻再包含) (.specs/done/095-audit-r2-redact-compaction.md)</li><li><time>20:33</time> <span class="project-chip">unso-os</span> fix: 096 打ち止め宣言に定量条件を明記+呼び出し元の役割排他をソース走査で固定 (.specs/done/096-audit-r2-guard-test-gap.md)</li><li><time>20:35</time> <span class="project-chip">unso-os</span> chore(specs): batch 完了処理 — audit manifest 更新(093-096)+DECISIONS 記録</li><li><time>20:44</time> <span class="project-chip">unso-os</span> fix: 095記録内の生UUID を伏せ字化(r3 securityレンズ検出の即時是正・検証対象の.specs/除外盲点も記録)</li><li><time>20:48</time> <span class="project-chip">hometeacher</span> feat: 保護者ホーム v2（LIFF・30秒判定）を3状態で実装（Mode A warm-trust・design-reviewer PASS）</li><li><time>20:57</time> <span class="project-chip">hometeacher</span> docs: 保護者ホーム v2 をユーザー確認 OK で確定（DECISIONS 記録）</li><li><time>21:00</time> <span class="project-chip">unso-os</span> chore(specs): audit round3(093-096・上限) — b1-b8全解消確認・残存CRITICAL3(d1承認窓/d4同名誤爆/d6反復再要約)で degraded STOP・人間ゲート097-098</li><li><time>21:15</time> <span class="project-chip">unso-os</span> fix(ai): metric ガード見積りの期間フィルタ反映+閾値統一+1000行切り捨て対策</li><li><time>21:27</time> <span class="project-chip">hometeacher</span> feat: 保護者「欠席連絡」画面 v2 を実装（S7 準拠・design-reviewer PASS）</li><li><time>21:34</time> <span class="project-chip">organ</span> vet: R1 218/219 QUARANTINED — 両spec CRITICAL 隔離 (218=f9 approve偽緑ほかHIGH2/MED5・219=g5 注入優先度ほかHIGH8/MED2)</li><li><time>22:03</time> <span class="project-chip">unso-os</span> chore(specs): vet round1 — 099/100 を QUARANTINED 隔離(099=CRITICAL f10 二重計上経路+HIGH11・100=HIGH11 全期間検索の実装不能ほか)・blocked 097/098-audit との番号衝突を 099/100 に改番</li></ol></details></details><details><summary>6日前 (2026-08-02)</summary><p class="headline">外注作業の承認条件と代理登録の範囲を見直し、誤承認を防ぎながら日常業務を止めない方針を確定しました。</p><details><summary>コミット詳細 (4 件)</summary><ol><li><time>19:31</time> <span class="project-chip">unso-os</span> chore(specs): vet review 087 裁定 — a1(i)承認フィルタ追加/a2(ii)受容+DB制約別spec申し送り/h1(iii)disabled+理由提示+help改訂・blocked→ready</li><li><time>20:35</time> <span class="project-chip">unso-os</span> chore(specs): vet 088 round1 — CRITICAL6/HIGH4 で QUARANTINED(過去月開放×締め/請求/監査契約の交差が主因)・blocked/088 人間ゲートへ</li><li><time>20:47</time> <span class="project-chip">unso-os</span> chore(specs): vet review 088 裁定 — 過去月開放を前月まで(floor)に縮小しCRITICAL6を解消/受容・tier1-risk訂正・別spec候補6件申し送り・blocked→ready</li><li><time>21:08</time> <span class="project-chip">unso-os</span> fix: 087 sibling承認集約へ承認フィルタ追加(サーバー同一契約化)+chassis編集不可の理由表示+help実効ルール改訂 (.specs/done/087-sibling-contract-gaps-silent-ux.md)</li></ol></details></details></section>
+    <section class="top"><div><h1>Project Dashboard</h1><p>2026-08-14T05:27:53.740Z</p></div><div class="stat">過去7日 0 コミット</div></section>
+    <section class="timeline"><h2>📅 最近のアクティビティ</h2><p class="empty">コミットはありません</p></section>
     <section class="projects"><h2>Projects</h2><div class="grid"><article class="card">
     <header><h3>ai-juku</h3><span class="badge">停止中</span></header>
     <p class="phase">現在地: 先生向け連絡機能の実用化準備</p>
@@ -64,7 +64,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>先生への通知が実際に届く流れを完成させる</li><li>担当する先生ごとに見える範囲を整理する</li><li>つまずいた生徒への声かけを学習画面につなげる</li><li>実機で学習画面の見え方を確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">ロードマップは全13段階で現在6段階目に着手中。残り7段階があり、機能範囲が広いため完成までは1-2ヶ月以上の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">80日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">85日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 1249</li><li>技術: TypeScript, JavaScript, Python, Kotlin, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: Phase 1.98a / v0.10.5</li></ul>
     </details>
@@ -77,9 +77,9 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>削除失敗時の案内方法を簡素化する</li><li>関連する登録引き継ぎ手順を見直す</li><li>見直した案の安全性を再確認する</li><li>人格の種類とチーム編成の計画を確定する</li><li>診断から相談開始までの流れを具体化する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">ロードマップは事前検証と5つの主要段階で構成され、現在は2段階目を進行中です。相談体験、共有、安全対策、公開準備まで残っており、文書上は2027年前半の公開、期間としては6〜12か月程度が目安です。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">24日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">30日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 338</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 58</li><li>進捗ドキュメント: 7 件</li><li>raw current_phase: ROADMAP v2 M0（C-lite v2 小拡張）</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 338</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 2</li><li>進捗ドキュメント: 7 件</li><li>raw current_phase: ROADMAP v2 M0（C-lite v2 小拡張）</li></ul>
     </details>
   </article><article class="card">
     <header><h3>aria</h3><span class="badge">停止中</span></header>
@@ -90,7 +90,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>方針変更案を作成して比較する流れを完成させる</li><li>途中から安全に作業を再開できることを確認する</li><li>候補ごとの成果を同じ条件で評価する</li><li>最終候補を一度だけ確認して提案書にまとめる</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">残っているのは改善案の作成、候補比較、最終確認です。再開後1〜3週間程度の作業が見込まれますが、全体日程の記載がないため確度は低めです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">42日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">48日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: spec 012 Stage 2</li></ul>
     </details>
@@ -103,7 +103,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>プロジェクトの目的と担当範囲を確認する</li><li>進捗を判断できる資料を作る</li><li>開発履歴を管理する方法を決める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">完成見込みを出す根拠がありません。まずは目的、成果物、作業履歴を整理する必要があり、見積もりはその後になります。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">52日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">57日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 0</li><li>技術: 不明</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: 不明</li></ul>
     </details>
@@ -116,7 +116,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>契約に関わる人を登録・確認できるようにする</li><li>契約者や保証人の入力ルールを固める</li><li>契約手続きの記録内容を更新する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため完成時期は断定できません。直近資料だけを見ると契約の本格整備が続く見込みで、少なくとも数週間単位の作業が残っています。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">71日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">76日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 538</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 38 件</li><li>raw current_phase: Step 2-3-2（P2-021）</li></ul>
     </details>
@@ -129,7 +129,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>公開前に残っている安全上の問題を解消する</li><li>解答と復習記録の食い違いを防ぐ</li><li>実際に利用できる環境を用意して動作確認する</li><li>教材を入手して問題取り込み方法を確定する</li><li>学習診断の的中度を試用で確かめる</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画がないため完成時期は断定できません。公開前の安全確認と運用準備が残っており、順調でも試用開始まで数週間規模の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">7日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">12日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 40</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: Phase 0 / MVP 001-002 done・003-005 blocked</li></ul>
     </details>
@@ -142,7 +142,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在の画面に合わせて説明用画像を撮り直す</li><li>配布用の説明書を再作成し、文章との食い違いを確認する</li><li>事務担当が変更できる範囲を最終決定する</li><li>実際の表計算資料を使って取り込み結果を確認する</li><li>関係者確認後に配布用説明書を確定する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">配布資料は画像更新と最終確認が中心で、判断が揃えば数日から1週間程度の見込みです。ただし全体ロードマップがないため、サービス全体の完了日は算出できません。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">11日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">16日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 368</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 10 件</li><li>raw current_phase: 販売〜納車フロー 0010 / manual finalization</li></ul>
     </details>
@@ -155,7 +155,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在の目的と完成条件を整理する</li><li>直近で動いている画面や機能を確認する</li><li>全体ロードマップを作成する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠資料がないため、残作業や完成時期は判断できません。まずは全体計画を1枚にまとめる必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">118日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">123日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 122</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li></ul>
     </details>
@@ -168,7 +168,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>案件の目的と対象業務を文書化する</li><li>現在までに完了した内容を棚卸しする</li><li>残作業と完了条件を明確にする</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">判断材料がないため、残作業と完成時期は見積もれません。目的、対象範囲、完了条件の整理が必要です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">29日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">35日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 64</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: 不明</li></ul>
     </details>
@@ -181,9 +181,9 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>登録済み案件の内容を後から変更できるようにする</li><li>受付窓口の現在地表示と操作時の見やすさを改善する</li><li>初版の利用状況を確認し、次の改善順を決める</li><li>対象サービスへの導入を順次広げる</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">初版は公開済みで、残る主な課題は登録内容の編集と細かな使いやすさの改善です。優先順位が決まれば1〜2週間程度で次の区切りを迎える見込みですが、全体計画がないため確度は低めです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">26日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">32日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 151</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 16</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: v1 本番稼働 / v2 候補整理</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 151</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 3</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: v1 本番稼働 / v2 候補整理</li></ul>
     </details>
   </article><article class="card">
     <header><h3>find_car</h3><span class="badge">停止中</span></header>
@@ -194,7 +194,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>全体の開発順序と完成条件を決める</li><li>最小限の試作品を作って現場で試す</li><li>利用者ごとの操作範囲を確定する</li><li>移動と棚卸しの手順を実車で確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">業務設計以外の根拠が乏しく、開発・試験・導入準備の大半が残っているとみられます。基本機能の試用開始まで少なくとも1〜2か月規模と推定しますが、確度は低めです。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">10日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">16日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 3</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: 業務設計・意思決定段階（2026-07-28）</li></ul>
     </details>
@@ -207,7 +207,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>全体計画を用意する</li><li>直近の変更内容を確認する</li><li>公開前に必要な確認項目を整理する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">根拠資料がないため、残作業量と完成時期は判断できません。まず計画と変更履歴を整える必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">82日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">87日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 184</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
     </details>
@@ -220,7 +220,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>査定申込みの受け付け先と担当者への渡し方を決める</li><li>取得する個人情報の保管期間と削除方法を決める</li><li>注意書きと掲載内容について店舗と本部の承認を得る</li><li>明るい写真を増やす方向で掲載写真を選び直す</li><li>案内文を最終調整して本番公開の確認を行う</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">本番化に必須の確認が3件、品質調整が数件残っています。申込先と個人情報の扱いが早く決まれば、関係者確認を含め1〜3週間程度での公開が見込まれます。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">18日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">24日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 919</li><li>技術: TypeScript, Markdown</li><li>直近30日のコミット: 13</li><li>進捗ドキュメント: 4 件</li><li>raw current_phase: mini-re prototype complete / productionization pending</li></ul>
     </details>
@@ -233,7 +233,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>販売件数をどの期間で揃えるか決める</li><li>過去2年分の商談資料を追加するか判断する</li><li>全期間表示の修正を実際の利用環境へ反映する</li><li>主要画面の販売件数が一致するか確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体の完成時期は判断できませんが、現在見えている販売件数の問題は、方針決定と必要資料の追加が済めば数日〜1週間程度で収束する見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">20日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">ゆるやかに継続</span><span class="meta-chip">26日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 1528</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 26</li><li>進捗ドキュメント: 2 件</li><li>raw current_phase: 販売台数不一致調査・全期間デフォルト化済み／未デプロイ</li></ul>
     </details>
@@ -246,7 +246,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>入会申込の流れについて利用者確認を終える</li><li>運営者が朝に確認する画面を完成させる</li><li>各画面で扱う情報と保存内容を整理する</li><li>実際の利用に向けた仕組み作りへ移る</li><li>法務確認と開拓準備を並行して進める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全5段階のうち最初の準備段階を進行中です。準備後に開拓、申込受付、3チームでの開講、開講後3か月の検証が残るため、全体完了は少なくとも数か月先の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">4日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">9日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 1543</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 145</li><li>進捗ドキュメント: 7 件</li><li>raw current_phase: M0 内部準備／UX再設計 4系統中3系統完了</li></ul>
     </details>
@@ -259,7 +259,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>移住検討者への聞き取りを行う</li><li>独自の公開住所を取得する</li><li>個人情報の案内文を整える</li><li>共有しやすい紹介導線を軽く作る</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">サービス自体はソフト公開済みで、完成度より事業検証が残っています。需要確認と公開準備で1-2週間、その結果次第で追加開発の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">70日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">76日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 110</li><li>技術: TypeScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 6 件</li><li>raw current_phase: soft launch / 2026-05-30</li></ul>
     </details>
@@ -272,9 +272,9 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>直近の修正をまとめて公開候補へ反映する</li><li>承認待ちと質問待ちが重なる場面を再確認する</li><li>同じ修正が繰り返された場合の動きを実地確認する</li><li>実際の相談テーマで回答品質を継続測定する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">中核機能は揃っていますが、公開までの全体条件が示されていないため完成時期は断定できません。現在の品質確認を続ける前提では、次の公開判断まで数週間程度の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">4日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">9日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 417</li><li>進捗ドキュメント: 5 件</li><li>raw current_phase: spec 218-227 完了／audit R25 clean</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 290</li><li>進捗ドキュメント: 5 件</li><li>raw current_phase: spec 218-227 完了／audit R25 clean</li></ul>
     </details>
   </article><article class="card">
     <header><h3>pit_system</h3><span class="badge">停止中</span></header>
@@ -285,7 +285,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>安全対策の変更を実際の利用環境へ反映する</li><li>取引先への案内が確実に届くよう整える</li><li>取引先が次回から自分で利用開始できるようにする</li><li>利用者からの改善報告機能を仕上げる</li><li>複数取引先への一斉打診を実施するか決める</li><li>残課題を新しい全体計画へまとめ直す</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">当初の全5段階は完了していますが、その後に業務対象を切り替えたため、新しい範囲には未完項目が残っています。再開後も少なくとも数週間を要する見込みで、停止中の現状では全体の完成時期を判断できません。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">39日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">44日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 2148</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 50 件</li><li>raw current_phase: Phase F（納車管理 pivot）・セキュリティ監査修正後</li></ul>
     </details>
@@ -298,7 +298,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>現在動く画面と未完成部分を確認する</li><li>診断結果の共有体験を仕上げる</li><li>会員向け機能の扱いを決める</li><li>全体ロードマップを作り直す</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">文書は複数ありますが、最終到達点を示す全体ロードマップは確認できません。再開する場合は、まず現状確認に数日、その後の仕上げに数週間程度を見込むのが妥当です。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">132日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">137日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 302</li><li>技術: TypeScript, JavaScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 3 件</li><li>raw current_phase: Sprint 4</li></ul>
     </details>
@@ -311,7 +311,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>分析用の出力項目を増やす</li><li>賃金補完の結果を集計表に反映する</li><li>競合比較用の表を新しく作る</li><li>判定用データを見直して精度を確認する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画がないため残量は算出できません。次段階の作業範囲は明確で、再開後は1-2週間程度で一区切りできる見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">80日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">中規模</span><span class="meta-chip">停止中</span><span class="meta-chip">85日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 649</li><li>技術: Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 1 件</li><li>raw current_phase: Phase 13</li></ul>
     </details>
@@ -324,7 +324,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>営業で自動化したい作業を決める</li><li>最初に扱う顧客情報を整理する</li><li>小さく試す範囲を決める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画がないため残り期間は不明です。小規模な試作から始めるなら、要件整理を含めて1-2週間程度が最初の目安です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">117日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">122日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 6</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: unknown</li></ul>
     </details>
@@ -337,7 +337,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>全体の目的と完成条件を文書にまとめる</li><li>直近5件の更新内容を記録する</li><li>次に進める作業と期限を整理する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">完成範囲と現在地が不明なため、完成時期は見積もれません。まず数日で目的、更新内容、残作業を整理した後に見通しを出す必要があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">125日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">131日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 99</li><li>技術: Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: 不明（進捗文書なし）</li></ul>
     </details>
@@ -350,7 +350,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>何を追うための場所か整理する</li><li>直近で必要な確認項目を決める</li><li>更新頻度とまとめ方を決める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">現時点では完成を目指す開発案件か、情報保管用かも判断できません。用途の整理だけなら数時間、運用化するなら数日程度の準備が必要です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">128日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">133日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 5</li><li>技術: Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li></ul>
     </details>
@@ -363,9 +363,9 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>車両なし作業を実際の現場手順で確認する</li><li>過去の記録を全期間で確認する仕組みを完成させる</li><li>請求済み記録が誤って変わらないことを再確認する</li><li>日ごと週ごとの成果分析を完成させる</li><li>月ごとの利益確認まで順に整備する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">車両なし作業への対応は完成し、現場確認は数日程度で進められる見込みです。一方、分析機能を含む全体の完成条件は不明で、残る拡張には数週間以上かかる可能性があります。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">3日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">活発に開発中</span><span class="meta-chip">9日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
-      <ul><li>Git: あり</li><li>ファイル数: 1804</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 269</li><li>進捗ドキュメント: 23 件</li><li>raw current_phase: car-cleaning spec 099 完了・migration 164/165 本番適用済み</li></ul>
+      <ul><li>Git: あり</li><li>ファイル数: 1804</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 151</li><li>進捗ドキュメント: 23 件</li><li>raw current_phase: car-cleaning spec 099 完了・migration 164/165 本番適用済み</li></ul>
     </details>
   </article><article class="card">
     <header><h3>WebCreater</h3><span class="badge">停止中</span></header>
@@ -376,7 +376,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>主要画面の使いやすさを観察して課題化する</li><li>競合サービスから参考点を整理する</li><li>改善ロードマップを作成する</li><li>質問から公開までの最短体験を固める</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体計画は3ヶ月で公開可能な最小版を作る前提です。現状は計画・見直し段階に近く、再開後も完成までは2-3ヶ月程度の見込みです。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">80日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">85日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: あり</li><li>ファイル数: 5000</li><li>技術: TypeScript, JavaScript, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 3 件</li><li>raw current_phase: Phase 9-A / Month 1-3 MVP roadmap</li></ul>
     </details>
@@ -389,7 +389,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>必要な写真素材をそろえる</li><li>トップページの見た目を統合する</li><li>下層6ページを同じ雰囲気で整える</li><li>診断体験が動く状態にする</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">全体ロードマップがないため完成時期は判断できません。資料上はトップページと6つの下層ページの試作が主な残作業で、素材が揃えば1-2週間程度の作業量に見えます。</p>
-    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">88日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">大規模</span><span class="meta-chip">停止中</span><span class="meta-chip">94日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 5000</li><li>技術: JavaScript, Python, Markdown</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 42 件</li><li>raw current_phase: Phase 1-4</li></ul>
     </details>
@@ -402,7 +402,7 @@
     <h4 class="section-h">次にやるべきこと</h4>
     <ul class="next"><li>プロジェクトの実体があるか確認する</li><li>目的と成果物を1枚に整理する</li><li>管理対象から外すか継続するか判断する</li></ul>
     <h4 class="section-h">このあとの見込み</h4><p class="outlook">材料が無いため完成見込みは出せません。まず数十分から半日程度で実体確認を行い、継続対象かどうかを決める段階です。</p>
-    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">64日前</span></footer>
+    <footer class="meta-foot"><span class="meta-chip">小規模</span><span class="meta-chip">停止中</span><span class="meta-chip">69日前</span></footer>
     <details class="tech-details"><summary>技術情報</summary>
       <ul><li>Git: なし</li><li>ファイル数: 0</li><li>技術: 不明</li><li>直近30日のコミット: 0</li><li>進捗ドキュメント: 0 件</li><li>raw current_phase: no git / no files</li></ul>
     </details>
